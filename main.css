@@ -14,7 +14,7 @@ body
 #wrapp
 {
 	min-width: 800px;
-	height: 1300px;
+	height: 1350px;
 	display: flex;
 	display: -webkit-flex;
 	background-color: #f0f0f0;
@@ -27,7 +27,7 @@ body
 	-webkit-flex-direction: column;
 	background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url("img/wavegrid.png");
 	width: 300px;
-	height: 1300px;
+	height: 1350px;
 	border-right: 1px solid grey;
 	padding-left: 10px;
 	padding-right: 10px;
@@ -151,7 +151,7 @@ p.approval
 	flex-direction: column;
 	-webkit-flex-direction: column;
 	width: 500px;
-	height: 1300px;
+	height: 1350px;
 	padding: 20px;
 }
 .experience, .workshops, .abilities
