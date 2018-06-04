@@ -94,12 +94,12 @@ ol > li
 	margin: 5px;
 	font-size: 16px;
 }
-a
+.style_anchor a
 {
 	color: #000000;
 	text-decoration: none;
 }
-a:hover
+.style_anchor a:hover
 {
 	color: #ff0000;	
 }
