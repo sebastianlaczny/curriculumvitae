@@ -96,12 +96,12 @@ ol > li
 }
 .style_anchor a
 {
-	color: black;
+	color: #000000;
 	text-decoration: none;
 }
 .style_anchor a:hover
 {
-	color: red;	
+	color: #ff0000;	
 }
 .languages
 {
