@@ -1,354 +1,229 @@
 <!DOCTYPE HTML>
 <html lang="pl">
-
 <head>
-
-
-
   <meta charset="utf-8" />
-  <title>Volleyball Club</title>
-  <meta name="description" content="" />
-  <meta name="keywords" content="" />
-  <link href="main.css" type="text/css" rel="stylesheet" />
+  <title>Pływające menu</title>
+  <meta name="description" content="opis" />
+  <meta name="keywords" content="keywords" />
+  <link href="css/main.min.css" type="text/css" rel="stylesheet" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500&amp;subset=latin-ext" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans&amp;subset=latin-ext" rel="stylesheet">
 </head>
-
-<body>
-  <div class="container">
-
-
-
-      <nav id="mobile-menu">
-        <div class="label-sub-menu">SUB MENU</div>
-        <label id="toggle-position" for="toggle" class="toggle">&#9776;</label>
-        <input id="toggle" type="checkbox"/>
-        <ul class="sub-nav-mobile">
-          <li>
-            <a href="index.html">Strona Główna</a>
-          </li>
-          <li>
-            <a href="#">Kontakt</a>
-          </li>
-          <li>
-            <a href="#">SPONSORZY</a>
-          </li>
-          <li>
-            <a href="#">WESPRZYJ NAS</a>
-          </li>
-          <li>
-            <a href="#">PRASA</a>
-          </li>
-          <li>
-            <a href="#">ARCHIWUM 2016/2017</a>
-          </li>
-          <li>
-            <a href="#">Kalendarz 2018/2019</a>
-          </li>
-        </ul>
-      </nav>
-
-
-
-
-      <nav id="flex-nav">
-        <ol class="sub-nav">
-          <li>
-            <a href="index.html">Strona Główna</a>
-          </li>
-          <li>
-            <a href="#">Kontakt</a>
-          </li>
-          <li>
-            <a href="#">SPONSORZY</a>
-          </li>
-          <li>
-            <a href="#">WESPRZYJ NAS</a>
-          </li>
-          <li>
-            <a href="#">PRASA</a>
-          </li>
-          <li>
-            <a href="#">ARCHIWUM 2016/2017</a>
-          </li>
-          <li>
-            <a href="#">Kalendarz 2018/2019</a>
-          </li>
-
-        </ol>
-      </nav>
-      <div class="logo">
-        <div class="picture">
-
-        </div>
-        <div class="content">
-          <div class="text">
-
-            VOLLEY CLUB POZNAN - VOLLEYBALL SCHOOL</div>
-
-        </div>
-
-      </div>
-      <nav id="mobile-main-nav">
-        <div class="label-sub-menu">MENU</div>
-        <label id="toggle-main-position" for="toggle-main" class="toggle">&#9776;</label>
-        <input id="toggle-main" type="checkbox"/>
-        <ol id="mobile-main-nav-list">
-          <li><a hef="index.html">KLUB</a></li>
-          <li><a href="#">ZAWODNICY</a></li>
-          <li><a href="">GALERIA</a></li>
-          <li><a href="">SZTAB SZKOLENIOWY</a></li>
-          <li><a href="#">HARMONOGRAM</a></li>
-          <li><a href="#">DO POBRANIA</a></li>
-        </ol>
-      </nav>
-      <div class="navigation">
-        <nav>
-          <ol class="main-nav-list">
-            <li><a hef="index.html">KLUB</a>
-              <ul class="main-nav-list-ul">
-                <li><a href="historia.html">
-                  HISTORIA</a>
-                </li>
-                <li><a href="osiagniecia.html">
-                  OSIĄGNIĘCIA</a>
-                </li>
-              </ul>
-            </li>
-            <li><a href="#">
-                ZAWODNICY</a>
-              <ul class="main-nav-list-ul">
-                <li><a href="#">
-                    MINISIATKÓWKA DZIEWCZĄT</a>
-                </li>
-                <li><a href="#">
-                    MŁODZICZKA</a>
-                </li>
-                <li><a href="#">
-                    MINISIATKÓWKA CHŁOPCÓW</a>
-                </li>
-                <li><a href="https://www.w3schools.com">
-                    MŁODZIK</a>
-                </li>
-              </ul>
-            </li>
-            <li><a href="#">
-                GALERIA</a>
-            </li>
-            <li><a href="#">
-                SZTAB SZKOLENIOWY</a>
-            </li>
-            <li><a href="#">
-                HARMONOGRAM</a>
-            </li>
-            <li><a href="#">
-                DO POBRANIA</a>
-            </li>
+  <body>
+    <div class="body-wrapper">
+      <header class="header">
+        <nav class="header__navigation">
+          <div class="header__title">
+            <p class="header__paragraph">SUB MENU</p>
+          </div>
+          <label for="toogle" id="toogle-position" class="header__toogle">☰</label>
+          <input type="checkbox" id="toogle" class="header__input" />
+          <ol class="submenu">
+            <li class="submenu__item"><a class="submenu__anchor" href="#">STRONA GŁÓWNA</a></li>
+            <li class="submenu__item"><a class="submenu__anchor" href="#">KONTAKT</a></li>
+            <li class="submenu__item"><a class="submenu__anchor" href="#">SPONSORZY</a></li>
+            <li class="submenu__item"><a class="submenu__anchor" href="#">WESPRZYJ NAS</a></li>
+            <li class="submenu__item"><a class="submenu__anchor" href="#">PRASA</a></li>
+            <li class="submenu__item"><a class="submenu__anchor" href="#">ARCHIWUM 2016/2017</a></li>
+            <li class="submenu__item"><a class="submenu__anchor" href="#">KALENDARZ 2018/2019</a></li>
           </ol>
         </nav>
-
-      </div>
-    </header>
-    <main>
-      <div class="page-title">
-        <h1>AKTUALNOŚCI</h1>
-      </div>
-      <div id="page-container">
-        <section class="left-container">
-          <article class="post">
-            <h2>ZAWODNICY UKS "PIĄTKA" TUREK W KADRZE POLSKI !!!</h2>
-            <div class="date">
-              8 PAŹDZIERNIK
-            </div>
-            <p>
-              Miło nam poinformować o powołaniu zawodniczki UKS "Piątka" Turek POLI JANICKIEJ
-              DO KADRY POLSKI U-15 oraz wychowanka naszego klubu
-              ALEKSANDRA PIKUŁY DO KADRY POLSKI U -16... <span class="page-read-more"><a href="#">Czytaj dalej</a></span>
-
-            </p>
-            <hr>
-          </article>
-          <article class="post">
-            <h2>NABÓR DO SEKCJI MINI PIŁKI SIATKOWEJ DZIEWCZĄT I CHŁOPCÓW KLASA III - II SZKÓŁ PODSTAWOWYCH Z TURKU I OKOLIC</h2>
-            <div class="date">
-              10 CZERWIEC
-            </div>
-            <p>
-              UKS "Piątka" Turek serdecznie zaprasza dziewczęta i chłopców (klasy III - II) na zajęcia z piłki siatkowej... <span class="page-read-more"><a href="#">Czytaj dalej</a></span>
-
-            </p>
-            <hr>
-          </article>
-          <article class="post">
-            <h2>PODSUMOWANIE:OBOZU SPORTOWEGO „ZĄB 2018”</h2>
-            <p>
-              W dniach od 26 lipca do 7 sierpnia zawodnicy oraz trenerzy naszego klubo uczestniczyli w obozie przygotowawczym do zbliżającego się wielkimi krokami nowego sezonu rozgrywek 2018/2019...
-              <span class="page-read-more"><a href="#">Czytaj dalej</a></span>
-            </p>
-            <hr>
-          </article>
-          <article class="post">
-            <h2>Nasi wychowankowie brązowymi medalistami Mistrzostw Polski Kadetów !!! </h2>
-            <div class="date">
-              26 MAJ
-            </div>
-            <p>
-              Miło nam poinformować, że wychowankowie UKS PIĄTKA TUREK zostali brązowymi medalistami Mistrzostw Polski Kadetów... <span class="page-read-more"><a href="#">Czytaj dalej</a></span>
-
-            </p>
-            <hr>
-          </article>
-          <article class="post">
-            <h2>MŁODZICZKI W PÓŁFINALE MISTRZOSTW POLSKI!!!</h2>
-            <div class="date">
-              5 MAJ
-            </div>
-            <p>
-              MŁODZICZKI TRENER EWY KSIĄŻKI DZIĘKI ZAJĘCIU DRUGIEGO MIEJSCA W ROZGRYWANYM W GDAŃSKU TURNIEJU ĆWIERĆFINAŁOWYM MISTRZOSTW POLSKI AWANSOWAŁY DO PÓŁFINAŁU MISTRZOSTW POLSKI !!!... <span class="page-read-more"><a href="#">Czytaj dalej</a></span>
-
-            </p>
-            <hr>
-          </article>
-          <article class="post">
-            <h2>MINISIATKÓWKA: TRZY ZESPOŁY W FINALE MISTRZOSTW WIELKOPOLSKI!!!</h2>
-            <div class="date">
-              15 KWIECIEŃ
-            </div>
-            <p>
-              ZA NAMI TURNIEJE PÓŁFINAŁOWE MISTZROSTW WIELKOPOLSKI W MINISIATKÓWCE, KTÓRE ODBYŁY SIĘ W KALISZU... <span class="page-read-more"><a href="#">Czytaj dalej</a></span>
-
-            </p>
-            <hr>
-          </article>
-          <article class="post">
-            <h2>5 MIEJSCE MŁODZIKÓW W FINALE</h2>
-            <div class="date">
-              27 MARZEC
-            </div>
-            <p>
-              Nasi MŁODZICY wywalczyli 5 MIEJSCE w rozgrywanym w Krotoszynie finale Mistrzostw Wielkopolski w Piłce Siatkowej Młodzików... <span class="page-read-more"><a href="#">Czytaj dalej</a></span>
-
-            </p>
-            <hr>
-          </article>
-          <article class="post">
-            <h2>Zapowiedź Finału Mistrzostw Wielkopolski Młodzika</h2>
-            <div class="date">
-              3 MARZEC
-            </div>
-            <p>
-              W najbliższą sobotę i niedziel w KROTOSZYNIE nasi MŁODZICY pod wodzą trenera Jana Kowalskiego rozpoczną walkę o Mistrzostwo województwa wielkopolskiego w swojej kategorii wiekowej... <span class="page-read-more"><a href="#">Czytaj dalej</a></span>
-
-            </p>
-            <hr>
-          </article>
-          <div class="site-pager">
-            <div class="previous">
-              <button> < Starsze aktualności </button>
-            </div>
+        <div class="header__container">
+          <img class="img" src="../logo/logo2.jpg"  alt="club-logo" />
+          <div class="wrapper">
+            <p class="header__name-club">VOLLEY CLUB POZNAŃ - VOLLEY SCHOOL</p>
           </div>
-        </section>
-
-        <section class="right-container">
-          <div class="table-name">Tabela ligowa</div>
-            <table class="pure-table">
-              <thead>
-                <tr>
-                  <th>Pozycja</th>
-                  <th>Drużyna</th>
-                  <th>Pkt</th>
-                  <th>M</th>
-                  <th>S</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>1</td>
-                  <td><img class="club-logo" src="logo/wilki.png" alt="logo-klubu"/>King Wilki Morskie Szczecin</td>
-                  <td>30</td>
-                  <td>6</td>
-                  <td>30:0</td>
-                </tr>
-
-                <tr>
-                  <td>2</td>
-                  <td><img class="club-logo" src="logo/polpha.png" alt="logo-klubu"/>Polpharma Starogard Gdański</td>
-                  <td>25</td>
-                  <td>6</td>
-                  <td>28:2</td>
-                </tr>
-
-                <tr>
-                  <td>3</td>
-                  <td><img class="club-logo" src="logo/stal.png" alt="logo-klubu"/>Stal Ostrów Wielkopolski</td>
-                  <td>22</td>
-                  <td>6</td>
-                  <td>22:8</td>
-                </tr>
-
-                <tr>
-                  <td>4</td>
-                  <td><img class="club-logo" src="logo/legia.png" alt="logo-klubu"/>Legia Warszawa</td>
-                  <td>18</td>
-                  <td>6</td>
-                  <td>20:10</td>
-                </tr>
-
-                <tr>
-                  <td>5</td>
-                  <td><img class="club-logo" src="logo/arka.png" alt="logo-klubu"/>Arka Gdynia</td>
-                  <td>17</td>
-                  <td>6</td>
-                  <td>18:12</td>
-                </tr>
-
-                <tr>
-                  <td>6</td>
-                  <td><img class="club-logo" src="logo/stelmet.png" alt="logo-klubu"/>Stelmet Enea BC Zielona Góra</td>
-                  <td>15</td>
-                  <td>6</td>
-                  <td>15:15</td>
-                </tr>
-
-                <tr>
-                  <td>7</td>
-                  <td><img class="club-logo" src="logo/gtk.png" alt="logo-klubu"/>GTK Gliwice</td>
-                  <td>10</td>
-                  <td>6</td>
-                  <td>12:18</td>
-                </tr>
-              </tbody>
-            </table>
-
-        </section>
-
-      </div>
-    </main>
-
-    <footer>
-      <div class="footer-widget-first">
-
-        <p class="footer-widget-first-content">
-          <span class="text-distinguish">UCZNIOWSKI KLUB SPORTOWY "PIĄTKA"</span><br/>
-          fax: (063) 289 18 34, tel. 666 777 888<br/>
-          e-mail: uks.piatka.turek@wp.pl<br/>
-          NIP: 668-18-35-044,
-          REGON: 311606006
-
-
-
-        </p>
-      </div>
-      <div class="footer-widget-second">
-        © 2018 Sebastian Łączny All rights reserved.
-      </div>
-
-    </footer>
-
-  </div>
-</body>
-</head>
+        </div>
+        <div class="header__title header__title--style">
+          <p class="header__paragraph header__paragraph--color">MENU</p>
+          <label for="tooglee" id="toogle-position" class="header__toogle--color">☰</label>
+        </div>
+        <nav class="header__navigation header__navigation--color">
+          <input type="checkbox" id="tooglee" class="header__input--main" />
+          <ol class="mainmenu">
+            <li class="mainmenu__item mainmenu__item"><a class="mainmenu__anchor" href="#"><span>KLUB</span></a></li>
+            <li class="mainmenu__item mainmenu__item"><a class="mainmenu__anchor" href="#"><span>ZAWODNICY</span></a></li>
+            <li class="mainmenu__item mainmenu__item"><a class="mainmenu__anchor" href="#"><span>GALERIA</span></a></li>
+            <li class="mainmenu__item mainmenu__item"><a class="mainmenu__anchor" href="#"><span>SZTAB SZKOLENIOWY</span></a></li>
+            <li class="mainmenu__item mainmenu__item"><a class="mainmenu__anchor" href="#"><span>HARMONOGRAM</span></a></li>
+            <li class="mainmenu__item mainmenu__item"><a class="mainmenu__anchor" href="#"><span>DO POBRANIA</span></a></li>
+          </ol>
+        </nav>
+      </header>
+      <main class="main">
+        <div class="main__name">
+          <h2 class="main__h2">AKTUALNOŚCI</h2>
+        </div>
+        <div class="wrap">
+          <section class="main__content">
+            <article class="main__post">
+              <h1 class="main__title">ZAWODNICY UKS "PIĄTKA" TUREK W KADRZE POLSKI !!!</h1>
+              <div class="main__date">
+                8 PAŹDZIERNIK
+              </div>
+              <p class="main__paragraph">
+                Miło nam poinformować o powołaniu zawodniczki UKS "Piątka" Turek POLI JANICKIEJ
+                DO KADRY POLSKI U-15 oraz wychowanka naszego klubu
+                ALEKSANDRA PIKUŁY DO KADRY POLSKI U -16... <a class="main__paragraph main__paragraph--more" href="#">Czytaj dalej</a>
+              </p>
+              <hr class="main__line">
+            </article>
+            <article class="main__post">
+              <h1 class="main__title">NABÓR DO SEKCJI MINI PIŁKI SIATKOWEJ DZIEWCZĄT I CHŁOPCÓW KLASA III - II SZKÓŁ PODSTAWOWYCH Z TURKU I OKOLIC</h1>
+              <div class="main__date">
+                10 CZERWIEC
+              </div>
+              <p class="main__paragraph">
+                UKS "Piątka" Turek serdecznie zaprasza dziewczęta i chłopców (klasy III - II) na zajęcia z piłki siatkowej... <a class="main__paragraph main__paragraph--more" href="#">Czytaj dalej...</a>
+              </p>
+              <hr class="main__line">
+            </article>
+            <article class="main__post">
+              <h1 class="main__title">PODSUMOWANIE:OBOZU SPORTOWEGO „ZĄB 2018”</h1>
+              <div class="main__date">
+                1 CZERWIEC
+              </div>
+              <p class="main__paragraph">
+                W dniach od 26 lipca do 7 sierpnia zawodnicy oraz trenerzy naszego klubo uczestniczyli w obozie przygotowawczym do zbliżającego się wielkimi krokami nowego sezonu rozgrywek 2018/2019... <a class="main__paragraph main__paragraph--more" href="#">Czytaj dalej...</a>
+              </p>
+              <hr class="main__line">
+            </article>
+            <article class="main__post">
+              <h1 class="main__title">Nasi wychowankowie brązowymi medalistami Mistrzostw Polski Kadetów !!! </h1>
+              <div class="main__date">
+                26 Maj
+              </div>
+              <p class="main__paragraph">
+                Miło nam poinformować, że wychowankowie UKS PIĄTKA TUREK zostali brązowymi medalistami Mistrzostw Polski Kadetów... <a class="main__paragraph main__paragraph--more" href="#">Czytaj dalej...</a>
+              </p>
+              <hr class="main__line">
+            </article>
+            <article class="main__post">
+              <h1 class="main__title">MŁODZICZKI W PÓŁFINALE MISTRZOSTW POLSKI!!!</h1>
+              <div class="main__date">
+                5 MAJ
+              </div>
+              <p class="main__paragraph">
+                MŁODZICZKI TRENER EWY KSIĄŻKI DZIĘKI ZAJĘCIU DRUGIEGO MIEJSCA W ROZGRYWANYM W GDAŃSKU TURNIEJU ĆWIERĆFINAŁOWYM MISTRZOSTW POLSKI AWANSOWAŁY DO PÓŁFINAŁU MISTRZOSTW POLSKI !!!... <a class="main__paragraph main__paragraph--more" href="#">Czytaj dalej...</a>
+              </p>
+              <hr class="main__line">
+            </article>
+            <article class="main__post">
+              <h1 class="main__title">MINISIATKÓWKA: TRZY ZESPOŁY W FINALE MISTRZOSTW WIELKOPOLSKI!!!</h1>
+              <div class="main__date">
+                15 KWIECIEŃ
+              </div>
+              <p class="main__paragraph">
+                ZA NAMI TURNIEJE PÓŁFINAŁOWE MISTZROSTW WIELKOPOLSKI W MINISIATKÓWCE, KTÓRE ODBYŁY SIĘ W KALISZU... <a class="main__paragraph main__paragraph--more" href="#">Czytaj dalej...</a>
+              </p>
+              <hr class="main__line">
+            </article>
+            <article class="main__post">
+              <h1 class="main__title">5 MIEJSCE MŁODZIKÓW W FINALE</h1>
+              <div class="main__date">
+                27 MARZEC
+              </div>
+              <p class="main__paragraph">
+                Nasi MŁODZICY wywalczyli 5 MIEJSCE w rozgrywanym w Krotoszynie finale Mistrzostw Wielkopolski w Piłce Siatkowej Młodzików... <a class="main__paragraph main__paragraph--more" href="#">Czytaj dalej...</a>
+              </p>
+              <hr class="main__line">
+            </article>
+            <article class="main__post">
+              <h1 class="main__title">Zapowiedź Finału Mistrzostw Wielkopolski Młodzika</h1>
+              <div class="main__date">
+                3 MARZEC
+              </div>
+              <p class="main__paragraph">
+                W najbliższą sobotę i niedziel w KROTOSZYNIE nasi MŁODZICY pod wodzą trenera Jana Kowalskiego rozpoczną walkę o Mistrzostwo województwa wielkopolskiego w swojej kategorii wiekowej... <a class="main__paragraph main__paragraph--more" href="#">Czytaj dalej...</a>
+              </p>
+              <hr class="main__line">
+            </article>
+                <button class="btn">< Starsze aktualności</button>
+          </section>
+          <div class="main__sidebar">
+            <div class="main__table-name">Tabela ligowa</div>
+              <table class="main__table">
+                <thead>
+                  <tr class="main__row--font-color">
+                    <th class="main__col">Pozycja</th>
+                    <th class="main__col">Drużyna</th>
+                    <th class="main__col">Pkt</th>
+                    <th class="main__col">M</th>
+                    <th class="main__col">S</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="main__row">
+                    <td class="main__cell">1</td>
+                    <td class="main__cell"><img class="club-logo" src="../logo/wilki.png" alt="logo-klubu"/>King Wilki Morskie Szczecin</td>
+                    <td class="main__cell">30</td>
+                    <td class="main__cell">6</td>
+                    <td class="main__cell">30:0</td>
+                  </tr>
+                  <tr class="main__row">
+                    <td class="main__cell">2</td>
+                    <td class="main__cell"><img class="club-logo" src="../logo/polpha.png" alt="logo-klubu"/>Polpharma Starogard Gdański</td>
+                    <td class="main__cell">25</td>
+                    <td class="main__cell">6</td>
+                    <td class="main__cell">28:2</td>
+                  </tr>
+                  <tr class="main__row">
+                    <td class="main__cell">3</td>
+                    <td class="main__cell"><img class="club-logo" src="../logo/stal.png" alt="logo-klubu"/>Stal Ostrów Wielkopolski</td>
+                    <td class="main__cell">22</td>
+                    <td class="main__cell">6</td>
+                    <td class="main__cell">22:8</td>
+                  </tr>
+                  <tr class="main__row">
+                    <td class="main__cell">4</td>
+                    <td class="main__cell"><img class="club-logo" src="../logo/legia.png" alt="logo-klubu"/>Legia Warszawa</td>
+                    <td class="main__cell">18</td>
+                    <td class="main__cell">6</td>
+                    <td class="main__cell">20:10</td>
+                  </tr>
+                  <tr class="main__row">
+                    <td class="main__cell">5</td>
+                    <td class="main__cell"><img class="club-logo" src="../logo/arka.png" alt="logo-klubu"/>Arka Gdynia</td>
+                    <td class="main__cell">17</td>
+                    <td class="main__cell">6</td>
+                    <td class="main__cell">18:12</td>
+                  </tr>
+                  <tr class="main__row">
+                    <td class="main__cell">6</td>
+                    <td class="main__cell"><img class="club-logo" src="../logo/stelmet.png" alt="logo-klubu"/>Stelmet Enea BC Zielona Góra</td>
+                    <td class="main__cell">15</td>
+                    <td class="main__cell">6</td>
+                    <td class="main__cell">15:15</td>
+                  </tr>
+                  <tr class="main__row">
+                    <td class="main__cell">7</td>
+                    <td class="main__cell"><img class="club-logo" src="../logo/gtk.png" alt="logo-klubu"/>GTK Gliwice</td>
+                    <td class="main__cell">10</td>
+                    <td class="main__cell">6</td>
+                    <td class="main__cell">12:18</td>
+                  </tr>
+                </tbody>
+              </table>
+           </div>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="footer__widget-first">
+          <p class="footer__widget-first footer__widget-first--content">
+            <span class="footer__distinguish">UCZNIOWSKI KLUB SPORTOWY "PIĄTKA"</span><br/>
+            fax: (063) 289 18 34, tel. 666 777 888<br/>
+            e-mail: uks.piatka.turek@wp.pl<br/>
+            NIP: 668-18-35-044,
+            REGON: 311606006
+          </p>
+        </div>
+        <div class="footer__widget-second">
+          © 2018 Sebastian Łączny All rights reserved.
+        </div>
+      </footer>
+    </div>
+  </body>
 
 </html>
