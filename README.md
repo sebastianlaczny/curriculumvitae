@@ -4,3 +4,5 @@ Use in this case:
 
 *BEM methodology 
 *Sass preprocessor 
+*Flexbox 
+*RWD
