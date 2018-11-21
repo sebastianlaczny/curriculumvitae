@@ -1,1 +1,44 @@
+@import "../abstracts/variables";
+@import "../abstracts/mixins";
+
+.sidebar__col, .sidebar__cell, .sidebar__row {
+  border-collapse: collapse;
+  padding: 5px;
+}
+.club-logo {
+  width: 20px;
+  height: 20px;
+  padding: 5px 20px 0 5px;
+  margin: 0;
+  display: none;
+  @media only screen and (min-width: 400px) {
+    display: inline;
+  }
+}
+.footer {
+  @include flex;
+  border-top: 3px solid $red-style;
+  color: $white-font;
+  background-color: $dark-style;
+  font-size: 14px;
+  padding: 30px;
+  margin-top: 30px;
+  font-family: $special-font;
+  &__widget-first {
+    background-color: $dark-style;
+    &--content {
+      line-height: 25px;
+    }
+  }
+  &__distinguish {
+    font-size: 15px;
+    font-weight: bold;
+  }
+  &__widget-second {
+    border-top: 1px solid rgb(50, 49, 49);
+    margin-top: 20px;
+    padding-top: 20px;
+    text-align: center;
+  }
+}
 
