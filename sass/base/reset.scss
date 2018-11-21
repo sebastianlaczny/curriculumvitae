@@ -1,0 +1,29 @@
+body, .header__toogle, .submenu, .submenu__anchor, .submenu, .name-club, .header__paragraph, .mainmenu, .footer__widget-first, .header__name-club, {
+  margin: 0;
+  padding: 0;
+
+}
+.header__input:checked+.submenu {
+  display: block;
+  @media only screen and (min-width: 900px) {
+    display: flex;
+  }
+
+}
+
+.header__input, .submenu, .mainmenu, .header__input--main {
+  display: none;
+}
+.header__input--main:checked+.mainmenu {
+  display: block;
+  @media only screen and (min-width: 900px) {
+    display: flex;
+  }
+}
+
+.submenu, .mainmenu {
+  list-style-type: none;
+  &__anchor {
+    text-decoration: none;
+  }
+}
