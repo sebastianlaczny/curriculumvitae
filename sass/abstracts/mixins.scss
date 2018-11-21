@@ -1,1 +1,11 @@
+@mixin linear-gradient($way, $color1, $color2, $color3) {
+  background-image: -webkit-linear-gradient($way, $color1, $color2, $color3);
+  background-image: -moz-linear-gradient($way, $color1, $color2, $color3);
+  background-image: -ms-linear-gradient($way, $color1, $color2, $color3);
+  background-image: -o-linear-gradient($way, $color1, $color2, $color3);
+}
+@mixin flex {
+  display: flex;
+  flex-direction: column;
+}
 
