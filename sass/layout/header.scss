@@ -103,9 +103,11 @@
     }
     &__anchor {
       color: $dark-style;
+    @media only screen and (mind-width: 900px) {
       &:hover {
         color: $hover-effect;
       }
+     }
     }
   }
   .mainmenu {
