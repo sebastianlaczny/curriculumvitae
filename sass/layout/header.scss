@@ -123,7 +123,6 @@
     &__item {
       padding: 10px 10px 10px 0;
       margin-left: $stable-margin-left;
-      cursor: pointer;
       @media only screen and (min-width: 900px){
         line-height: 55px;
         overflow: hidden;
@@ -136,6 +135,7 @@
       }
     &__anchor {
       color: $mainmenu-font;
+      cursor: pointer;
       @media only screen and (min-width: 900px) {
         padding: 17px 25px;
         position: relative;
