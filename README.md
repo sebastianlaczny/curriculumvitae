@@ -2,7 +2,7 @@ VOLLEYBALL CLUB page for one of the VOLLEY CLUB from Poland (constantly developi
 
 Use in this case:
 
-*BEM methodology 
-*Sass preprocessor 
+*BEM  
+*Sass  
 *Flexbox 
 *RWD
